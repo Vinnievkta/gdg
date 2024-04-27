@@ -1,0 +1,52 @@
+.profile-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bio {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  
+  .stats {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .stat-name {
+    font-weight: bold;
+  }
+  
+  .edit-profile-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .edit-profile-btn:hover {
+    background-color: #0069d9;
+  }
